@@ -35,22 +35,42 @@ struct ContentView: View {
         .navigationBarItems(
           leading: EditButton(),
           trailing:
-  //          shift tab
+            //          shift tab
             Button(action: {
               self.showingAddTodoView.toggle()
             }){
               Image(systemName: "plus")
             }
-          .sheet(isPresented: $showingAddTodoView){
-            AddTodoView().environment(\.managedObjectContext, self.managedObjectContext)
-          })
-
+            .sheet(isPresented: $showingAddTodoView){
+              AddTodoView().environment(\.managedObjectContext, self.managedObjectContext)
+            }
+        )
+        
         
         if todos.count == 0{
           EmptyListView()
         }
       }
+      .sheet(isPresented: $showingAddTodoView){
+        AddTodoView().environment(\.managedObjectContext, self.managedObjectContext)
+      }
+      .overlay(
+        ZStack{
+          Button(action: {
+            self.showingAddTodoView.toggle()
+          }){
+            Image(systemName: "plus.circle.fill")
+              .resizable()
+              .scaledToFit()
+              .background(Circle().fill(Color("ColorBase")))
+              .frame(width: 48, height: 48, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
           }
+        }
+        .padding(.bottom, 15)
+        .padding(.trailing, 15)
+        , alignment: .bottomTrailing
+      )
+    }
   }
   
   private func deleteTodo(at offsets: IndexSet){
