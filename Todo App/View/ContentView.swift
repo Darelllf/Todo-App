@@ -14,6 +14,9 @@ struct ContentView: View {
   @FetchRequest(entity: Todo.entity(), sortDescriptors: [NSSortDescriptor(keyPath: \Todo.name, ascending: true)]) var todos: FetchedResults<Todo>
   
   @State private var showingAddTodoView: Bool = false
+  @State private var showingSettingsView: Bool = false
+  
+  @EnvironmentObject var iconSettings: IconNames
   
   var body: some View {
     Text("Hello, world!")
@@ -35,14 +38,16 @@ struct ContentView: View {
         .navigationBarItems(
           leading: EditButton(),
           trailing:
-            //          shift tab
+            //          di ganti showingSettingsView
             Button(action: {
-              self.showingAddTodoView.toggle()
+              self.showingSettingsView.toggle()
             }){
-              Image(systemName: "plus")
+              Image(systemName: "paintbrush")
+                .imageScale(.large)
             }
-            .sheet(isPresented: $showingAddTodoView){
-              AddTodoView().environment(\.managedObjectContext, self.managedObjectContext)
+            .sheet(isPresented: $showingSettingsView){
+//              diganti jadi SettingsView
+              SettingsView().environmentObject(self.iconSettings)
             }
         )
         

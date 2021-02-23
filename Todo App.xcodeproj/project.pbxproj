@@ -7,7 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB56CE9825E35B3D0020B516 /* FormRowStaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB56CE9725E35B3D0020B516 /* FormRowStaticView.swift */; };
+		BB56CE9B25E35EC80020B516 /* FormRowLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB56CE9A25E35EC80020B516 /* FormRowLinkView.swift */; };
+		BB56CE9E25E364C10020B516 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB56CE9D25E364C10020B516 /* SettingsView.swift */; };
 		BB5709C525DE19F1006C8F2F /* EmptyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5709C425DE19F1006C8F2F /* EmptyListView.swift */; };
+		BB62857A25E4AAE100CD4835 /* Blue Light.png in Resources */ = {isa = PBXBuildFile; fileRef = BB62857125E4AAE100CD4835 /* Blue Light.png */; };
+		BB62857B25E4AAE100CD4835 /* Green.png in Resources */ = {isa = PBXBuildFile; fileRef = BB62857225E4AAE100CD4835 /* Green.png */; };
+		BB62857C25E4AAE100CD4835 /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = BB62857325E4AAE100CD4835 /* Blue.png */; };
+		BB62857D25E4AAE100CD4835 /* Pink Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = BB62857425E4AAE100CD4835 /* Pink Dark.png */; };
+		BB62857E25E4AAE100CD4835 /* Pink.png in Resources */ = {isa = PBXBuildFile; fileRef = BB62857525E4AAE100CD4835 /* Pink.png */; };
+		BB62857F25E4AAE100CD4835 /* Green Light.png in Resources */ = {isa = PBXBuildFile; fileRef = BB62857625E4AAE100CD4835 /* Green Light.png */; };
+		BB62858025E4AAE100CD4835 /* Pink Light.png in Resources */ = {isa = PBXBuildFile; fileRef = BB62857725E4AAE100CD4835 /* Pink Light.png */; };
+		BB62858125E4AAE100CD4835 /* Green Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = BB62857825E4AAE100CD4835 /* Green Dark.png */; };
+		BB62858225E4AAE100CD4835 /* Blue Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = BB62857925E4AAE100CD4835 /* Blue Dark.png */; };
 		BBA99DE225DA1DFA00478776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA99DE125DA1DFA00478776 /* AppDelegate.swift */; };
 		BBA99DE425DA1DFA00478776 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA99DE325DA1DFA00478776 /* SceneDelegate.swift */; };
 		BBA99DE625DA1DFA00478776 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA99DE525DA1DFA00478776 /* ContentView.swift */; };
@@ -19,7 +31,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB56CE9725E35B3D0020B516 /* FormRowStaticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowStaticView.swift; sourceTree = "<group>"; };
+		BB56CE9A25E35EC80020B516 /* FormRowLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowLinkView.swift; sourceTree = "<group>"; };
+		BB56CE9D25E364C10020B516 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		BB5709C425DE19F1006C8F2F /* EmptyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyListView.swift; sourceTree = "<group>"; };
+		BB62857125E4AAE100CD4835 /* Blue Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Light.png"; sourceTree = "<group>"; };
+		BB62857225E4AAE100CD4835 /* Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Green.png; sourceTree = "<group>"; };
+		BB62857325E4AAE100CD4835 /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue.png; sourceTree = "<group>"; };
+		BB62857425E4AAE100CD4835 /* Pink Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pink Dark.png"; sourceTree = "<group>"; };
+		BB62857525E4AAE100CD4835 /* Pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pink.png; sourceTree = "<group>"; };
+		BB62857625E4AAE100CD4835 /* Green Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Light.png"; sourceTree = "<group>"; };
+		BB62857725E4AAE100CD4835 /* Pink Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pink Light.png"; sourceTree = "<group>"; };
+		BB62857825E4AAE100CD4835 /* Green Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Dark.png"; sourceTree = "<group>"; };
+		BB62857925E4AAE100CD4835 /* Blue Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Dark.png"; sourceTree = "<group>"; };
 		BBA99DDE25DA1DFA00478776 /* Todo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBA99DE125DA1DFA00478776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBA99DE325DA1DFA00478776 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +67,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB62857025E4AA7200CD4835 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				BB62857925E4AAE100CD4835 /* Blue Dark.png */,
+				BB62857125E4AAE100CD4835 /* Blue Light.png */,
+				BB62857325E4AAE100CD4835 /* Blue.png */,
+				BB62857825E4AAE100CD4835 /* Green Dark.png */,
+				BB62857625E4AAE100CD4835 /* Green Light.png */,
+				BB62857225E4AAE100CD4835 /* Green.png */,
+				BB62857425E4AAE100CD4835 /* Pink Dark.png */,
+				BB62857725E4AAE100CD4835 /* Pink Light.png */,
+				BB62857525E4AAE100CD4835 /* Pink.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
 		BBA99DD525DA1DFA00478776 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +102,7 @@
 		BBA99DE025DA1DFA00478776 /* Todo App */ = {
 			isa = PBXGroup;
 			children = (
+				BB62857025E4AA7200CD4835 /* Icons */,
 				BBA99DE125DA1DFA00478776 /* AppDelegate.swift */,
 				BBA99DE325DA1DFA00478776 /* SceneDelegate.swift */,
 				BBA99DF925DA1E7000478776 /* View */,
@@ -88,6 +129,9 @@
 				BBA99DE525DA1DFA00478776 /* ContentView.swift */,
 				BBA99DFB25DA1F0100478776 /* AddTodoView.swift */,
 				BB5709C425DE19F1006C8F2F /* EmptyListView.swift */,
+				BB56CE9725E35B3D0020B516 /* FormRowStaticView.swift */,
+				BB56CE9A25E35EC80020B516 /* FormRowLinkView.swift */,
+				BB56CE9D25E364C10020B516 /* SettingsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -149,9 +193,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB62858125E4AAE100CD4835 /* Green Dark.png in Resources */,
+				BB62857F25E4AAE100CD4835 /* Green Light.png in Resources */,
 				BBA99DF125DA1DFB00478776 /* LaunchScreen.storyboard in Resources */,
+				BB62857D25E4AAE100CD4835 /* Pink Dark.png in Resources */,
+				BB62857A25E4AAE100CD4835 /* Blue Light.png in Resources */,
 				BBA99DEE25DA1DFB00478776 /* Preview Assets.xcassets in Resources */,
+				BB62858225E4AAE100CD4835 /* Blue Dark.png in Resources */,
+				BB62857C25E4AAE100CD4835 /* Blue.png in Resources */,
+				BB62857E25E4AAE100CD4835 /* Pink.png in Resources */,
+				BB62858025E4AAE100CD4835 /* Pink Light.png in Resources */,
 				BBA99DEB25DA1DFB00478776 /* Assets.xcassets in Resources */,
+				BB62857B25E4AAE100CD4835 /* Green.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,10 +215,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB56CE9825E35B3D0020B516 /* FormRowStaticView.swift in Sources */,
 				BBA99DE225DA1DFA00478776 /* AppDelegate.swift in Sources */,
 				BBA99DE425DA1DFA00478776 /* SceneDelegate.swift in Sources */,
+				BB56CE9E25E364C10020B516 /* SettingsView.swift in Sources */,
 				BB5709C525DE19F1006C8F2F /* EmptyListView.swift in Sources */,
 				BBA99DE625DA1DFA00478776 /* ContentView.swift in Sources */,
+				BB56CE9B25E35EC80020B516 /* FormRowLinkView.swift in Sources */,
 				BBA99DE925DA1DFA00478776 /* Todo_App.xcdatamodeld in Sources */,
 				BBA99DFC25DA1F0100478776 /* AddTodoView.swift in Sources */,
 			);

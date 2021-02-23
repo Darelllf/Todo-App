@@ -36,7 +36,6 @@ struct AddTodoView: View {
               Text($0)
             }
           }
-          
           .pickerStyle(SegmentedPickerStyle())
           Button(action:{
             if self.name != "" {
@@ -69,7 +68,6 @@ struct AddTodoView: View {
         }
         .padding(.horizontal)
         .padding(.vertical, 30)
-        
         Spacer()
       }
       .navigationBarTitle("New Todo", displayMode: .inline)
